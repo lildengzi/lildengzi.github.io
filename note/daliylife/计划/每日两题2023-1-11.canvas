@@ -1,0 +1,11 @@
+{
+	"nodes":[
+		{"id":"280e2b6f6ce59889","x":90,"y":-233,"width":533,"height":434,"type":"text","text":"```data\n2023-1-11\n数学\n题一\n```\n例题:$x=a(t-\\sin t)$ ，$y=a(1-\\cos t)$， $0 \\leq t \\leq 2\\pi$\n绕y轴旋转一圈，求围成体积\n解: $dy = a\\sin t$\n$$\\begin{equation}\\begin{aligned}\nv&=\\int^{2a}_0 \\pi (x^2_2(y)-x^2_1(y))dy \\\\\n&= \\int^\\pi_{2\\pi} \\pi a^2(t-\\sin t)^2a\\sin tdt - \\int^\\pi_0 \\pi a^2(t-\\sin t)^2 a\\sin tdt\\\\\n&=\\pi a^3(\\int^\\pi_{2\\pi} (t^2\\sin t - t\\sin^2 t +\\sin^3 t)dt- \\int^\\pi_0 (t^2\\sin t - t\\sin^2 t +\\sin^3 t)dt)\n\\end{aligned}\\end{equation}$$\n$\\int t^2\\sin tdt = -t^2\\cos t + \\int 2t\\sin tdt =-t^2\\cos t+2\\sin t - 2t\\cos t$\n$\\int -t\\sin^2 tdt =-{t^2 \\over 4} + {t\\sin 2t \\over 4} + {\\cos 2t \\over 2}$\n$\\int \\sin^3 tdt = {\\sin^3 t \\over 3}$\n\n"},
+		{"id":"c6e97e2c45be7a0a","x":-484,"y":291,"width":1107,"height":817,"type":"file","file":"obsidian配置文件/obsidian资源文件/数学/2023-1-11Draw.md"},
+		{"id":"37d0af8dac4a013b","x":-482,"y":-233,"width":533,"height":434,"type":"text","text":"```data\n2023-1-11\n数学\n题一\n```\n例题:$x=a(t-\\sin t)$ ，$y=a(1-\\cos t)$， $0 \\leq t \\leq 2\\pi$\n绕x轴旋转一圈，求围成体积\n解: $dx = a(1- \\cos t)dt$\n$$\nv=\\int^{2\\pi a}_0 \\pi y^2 dx = \\int^{2\\pi}_0 \\pi a^2 (1-\\cos t)^2d(a(t-\\sin t)) \\\\\n$$\n$$\n=a^3\\pi\\int^{2\\pi}_0 (1-\\cos t)^3 dt = a^3\\pi\\int^{2\\pi}_0 (1 - 3\\cos t + 3\\cos^2 t -\\cos^3 t)dt\n$$\n$(\\int \\cos^3 t dt = \\int \\cos^2 td(\\sin t) = \\int (1-\\sin^2 t)d(\\sin t) = \\sin t-{\\sin^3 t \\over 3})$\n$(\\int \\cos^2 tdt = \\int ({1-cos2t \\over 2})dt = {1 \\over 2}t - {\\sin 2t \\over 4})$\n$$\n\\int^{2\\pi}_0 (1 - 3\\cos t + 3\\cos^2 t -\\cos^3 t)dt = {5 \\over 2}t - 4sin t + {3 \\over 4}\\sin 2t + {1 \\over 3}\\sin^3 t|^{2\\pi}_0\n$$\n所以原式=$\\pi a^3 \\cdot$ 上式结果$5\\pi$ = $5\\pi^2 a^3$\n"}
+	],
+	"edges":[
+		{"id":"e8fe85aeac6636d6","fromNode":"37d0af8dac4a013b","fromSide":"right","toNode":"280e2b6f6ce59889","toSide":"left"},
+		{"id":"5849f8ad721d87d4","fromNode":"280e2b6f6ce59889","fromSide":"left","toNode":"37d0af8dac4a013b","toSide":"right"}
+	]
+}

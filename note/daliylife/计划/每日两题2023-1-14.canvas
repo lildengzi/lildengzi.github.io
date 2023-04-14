@@ -1,0 +1,9 @@
+{
+	"nodes":[
+		{"id":"6a64cedd2e229d0d","x":-314,"y":-184,"width":437,"height":370,"type":"text","text":"```cpp\n#include<iostream>\n//C++17standard\nstruct A\n{\n\tA(){std::cout << \"A\";}\n\tA(const A& a){std::cout << \"B\";}\n\t\n\tvirtual void f(){std::cout << \"C\";}\n};\n\nint main()\n{\n\tA a[2];\n\tfor(auto x : a)\n\t{\n\t\tx.f();//output:AABCBC\n\t}\n}\n```"},
+		{"id":"e62c784656b3a6fa","x":161,"y":-184,"width":437,"height":370,"type":"text","text":"```cpp\n#include<iostream>\n//C++17standard\nstruct A\n{\n\tA(){std::cout << \"A\";}\n\tA(const A& a){std::cout << \"B\";}\n\t\n\tvirtual void f(){std::cout << \"C\";}\n};\n\nint main()\n{\n\tA a[2];\n\tfor(auto& x : a)\n\t{\n\t\tx.f();//output:ABC\n\t}\n}\n```"}
+	],
+	"edges":[
+		{"id":"a572a4b50f455d8c","fromNode":"6a64cedd2e229d0d","fromSide":"right","toNode":"e62c784656b3a6fa","toSide":"left"}
+	]
+}

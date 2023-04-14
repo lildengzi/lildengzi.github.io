@@ -1,0 +1,287 @@
+{
+  "main": {
+    "id": "31e3e85fb1306c4d",
+    "type": "split",
+    "children": [
+      {
+        "id": "adbfc46db79a200f",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "c2adc6ea793d68dd",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "CandCPP/C/c语言常用库.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "93027211db85bd15",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "CandCPP/STL/STL初识.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          }
+        ],
+        "stacked": true
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "b8902d3facd010e9",
+    "type": "split",
+    "children": [
+      {
+        "id": "a3b6f9e6f6a1c174",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "a5420414ef66e53c",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "byModifiedTime"
+              }
+            }
+          },
+          {
+            "id": "5ae85712d1fe154a",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "模板",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": true,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "a4957a3d3225ad36",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          },
+          {
+            "id": "ef25f5e1252f039d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "obsidian配置文件/obsidian插件/自定义快捷键.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 212.5
+  },
+  "right": {
+    "id": "4e548b0c4d29bf1c",
+    "type": "split",
+    "children": [
+      {
+        "id": "72afd76592029e38",
+        "type": "tabs",
+        "dimension": 63.84803921568627,
+        "children": [
+          {
+            "id": "7839f188796ff3fc",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "CandCPP/C/c语言常用库.md"
+              }
+            }
+          },
+          {
+            "id": "8dfd7ce140d30546",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": false
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "9ee13e2436c67e54",
+        "type": "tabs",
+        "dimension": 36.15196078431372,
+        "children": [
+          {
+            "id": "a534597679f397ba",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "CandCPP/C/c语言常用库.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "f59645b97294fa4a",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "CandCPP/C/c语言常用库.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": false
+              }
+            }
+          },
+          {
+            "id": "cfe9445083d867c4",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {}
+            }
+          },
+          {
+            "id": "ae12bfeda51c9fa8",
+            "type": "leaf",
+            "state": {
+              "type": "localgraph",
+              "state": {
+                "file": "CandCPP/C/c语言常用库.md",
+                "options": {
+                  "collapse-filter": false,
+                  "search": "",
+                  "localJumps": 1,
+                  "localBacklinks": true,
+                  "localForelinks": true,
+                  "localInterlinks": false,
+                  "showTags": false,
+                  "showAttachments": false,
+                  "hideUnresolved": false,
+                  "collapse-color-groups": false,
+                  "colorGroups": [],
+                  "collapse-display": true,
+                  "showArrow": true,
+                  "textFadeMultiplier": -3,
+                  "nodeSizeMultiplier": 1,
+                  "lineSizeMultiplier": 1,
+                  "collapse-forces": true,
+                  "centerStrength": 0.518713248970312,
+                  "repelStrength": 10,
+                  "linkStrength": 1,
+                  "linkDistance": 250,
+                  "scale": 0.4675508913371803,
+                  "close": true
+                }
+              }
+            }
+          }
+        ],
+        "currentTab": 3
+      }
+    ],
+    "direction": "horizontal",
+    "width": 233.5
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "canvas:新建白板": false,
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": true,
+      "workspaces:管理工作区布局": false,
+      "random-note:开始漫游笔记": false,
+      "obsidian-excalidraw-plugin:新建 Excalidraw 绘图": false,
+      "zk-prefixer:创建时间戳笔记": false
+    }
+  },
+  "active": "c2adc6ea793d68dd",
+  "lastOpenFiles": [
+    "CandCPP/C/C语言常用库string.h.md",
+    "CandCPP/C/c语言常用库.md",
+    "CandCPP/C/C语言设计.md",
+    "CandCPP/CandCpp底层知识.md",
+    "README.md",
+    "CandCPP/STL/STL初识.md",
+    "CandCPP/cpp进阶模板编程.md",
+    "CandCPP/cpp进阶.md",
+    "CandCPP/CandCpp指针.md",
+    "CandCPP/CandCPP文件操作.md",
+    "CandCPP/C条件判断逻辑图.canvas",
+    "CandCPP/cpp函数进阶.md",
+    "CandCPP/CandCPPconst.md",
+    "CandCPP/STL/其他容器.md",
+    "DataStructuresAndAlgorithms/data_structure/栈.md",
+    "DataStructuresAndAlgorithms/data_structure/散列表.md",
+    "DataStructuresAndAlgorithms/data_structure/队列.md",
+    "DataStructuresAndAlgorithms/data_structure/线性表.md",
+    "CandCPP/现代cpp/智能指针.md",
+    "CandCPP/tree/main/cpp进阶.md",
+    "CandCPP/现代cpp/函数后关键字.md",
+    "DataStructuresAndAlgorithms/algorithm/高精度.md",
+    "CandCPP/现代cpp/遍历方法.md",
+    "CandCPP/现代cpp/lambda.md",
+    "CandCPP/现代cpp/新运算符.md",
+    "CandCPP/现代cpp/现代cpp.md",
+    "CandCPP/现代cpp/新对象特性.md",
+    "CandCPP/tree/main",
+    "CandCPP/tree",
+    "daliylife/计划/每日两题2023-1-11.canvas",
+    "daliylife/计划/每日两题2023-1-14.canvas",
+    "obsidian配置文件/obsidian资源文件/Pasted image 20230410205915.png",
+    "C语言malloc",
+    "cppnew",
+    "汇编asm",
+    "English/单词.canvas",
+    "obsidian配置文件/obsidian资源文件/Pasted image 20230315220305.png",
+    "obsidian配置文件/obsidian资源文件/Pasted image 20230315220147.png",
+    "obsidian配置文件/obsidian资源文件/Pasted image 20230315220118.png",
+    "obsidian配置文件/obsidian资源文件/Pasted image 20230315220031.png",
+    "DataStructuresAndAlgorithms/stl",
+    "obsidian配置文件/obsidian资源文件/Pasted image 20230311171930.png",
+    "obsidian配置文件/obsidian资源文件/Pasted image 20230224133047.png",
+    "obsidian配置文件/obsidian资源文件/Pasted image 20230221214457.png",
+    "obsidian配置文件/obsidian资源文件/Pasted image 20230204212753.png",
+    "obsidian配置文件/obsidian资源文件/Pasted image 20230204212604.png",
+    "未命名.canvas",
+    "OpenCV",
+    "Excalidraw/未命名.canvas",
+    "CandCPP/现代cpp",
+    "Cmake",
+    "嵌入式/51开发板"
+  ]
+}
