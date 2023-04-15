@@ -11,8 +11,13 @@
             "id": "e5e7aca056779989",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "DataStructuresAndAlgorithms/sort/shell.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
             }
           }
         ],
@@ -95,7 +100,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "DataStructuresAndAlgorithms/sort/shell.md"
+              }
             }
           },
           {
@@ -122,6 +129,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "DataStructuresAndAlgorithms/sort/shell.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -138,6 +146,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "DataStructuresAndAlgorithms/sort/shell.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -157,6 +166,7 @@
             "state": {
               "type": "localgraph",
               "state": {
+                "file": "DataStructuresAndAlgorithms/sort/shell.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -209,6 +219,7 @@
   "active": "e5e7aca056779989",
   "lastOpenFiles": [
     "CandCPP/C/c语言oop.md",
+    "DataStructuresAndAlgorithms/sort/shell.md",
     "CandCPP/C/C语言实现泛型.md",
     "CandCPP/C/c语言常用库.md",
     "CandCPP/C/C语言常用库ctype.h.md",
@@ -233,7 +244,6 @@
     "CandCPP/cpp内联函数.md",
     "CandCPP/cpp函数进阶.md",
     "CandCPP/cpp友元.md",
-    "CandCPP/cpp命名空间.md",
     "obsidian配置文件/obsidian资源文件/Pasted image 20230414172428.png",
     "obsidian配置文件/obsidian资源文件/Pasted image 20230410205915.png",
     "obsidian配置文件/obsidian资源文件/Pasted image 20230315220305.png",

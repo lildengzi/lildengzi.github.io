@@ -8691,6 +8691,7 @@ qsb
 qcc
 qCv
 qPrZ
+qsort
 FF
 FE
 FC
