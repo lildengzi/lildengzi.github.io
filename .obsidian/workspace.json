@@ -4,20 +4,40 @@
     "type": "split",
     "children": [
       {
-        "id": "45ae080ffbeda15b",
+        "id": "e3529c1c0486d3f4",
         "type": "tabs",
         "children": [
           {
+<<<<<<< HEAD
             "id": "d245db7a752e458f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
                 "file": "index.md",
+=======
+<<<<<<< Updated upstream
+            "id": "e5e7aca056779989",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+=======
+            "id": "1858f47baa9c494d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "编程学习.md",
+>>>>>>> test
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               }
+<<<<<<< HEAD
+=======
+>>>>>>> Stashed changes
+>>>>>>> test
             }
           }
         ],
@@ -40,7 +60,7 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "byModifiedTime"
+                "sortOrder": "alphabetical"
               }
             }
           },
@@ -50,7 +70,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "模板",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -100,9 +120,19 @@
             "type": "leaf",
             "state": {
               "type": "outline",
+<<<<<<< HEAD
               "state": {
                 "file": "index.md"
               }
+=======
+<<<<<<< Updated upstream
+              "state": {}
+=======
+              "state": {
+                "file": "编程学习.md"
+              }
+>>>>>>> Stashed changes
+>>>>>>> test
             }
           },
           {
@@ -129,7 +159,14 @@
             "state": {
               "type": "backlink",
               "state": {
+<<<<<<< HEAD
                 "file": "index.md",
+=======
+<<<<<<< Updated upstream
+=======
+                "file": "编程学习.md",
+>>>>>>> Stashed changes
+>>>>>>> test
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -146,7 +183,14 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+<<<<<<< HEAD
                 "file": "index.md",
+=======
+<<<<<<< Updated upstream
+=======
+                "file": "编程学习.md",
+>>>>>>> Stashed changes
+>>>>>>> test
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -166,7 +210,14 @@
             "state": {
               "type": "localgraph",
               "state": {
+<<<<<<< HEAD
                 "file": "index.md",
+=======
+<<<<<<< Updated upstream
+=======
+                "file": "编程学习.md",
+>>>>>>> Stashed changes
+>>>>>>> test
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -189,7 +240,7 @@
                   "repelStrength": 10,
                   "linkStrength": 1,
                   "linkDistance": 250,
-                  "scale": 0.4675508913371803,
+                  "scale": 0.49463636100664743,
                   "close": true
                 }
               }
@@ -204,6 +255,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "webpage-html-export:Export Vault to HTML": false,
       "canvas:新建白板": false,
       "switcher:打开快速切换": false,
       "graph:查看关系图谱": false,
@@ -212,35 +264,53 @@
       "table-editor-obsidian:Advanced Tables Toolbar": true,
       "workspaces:管理工作区布局": false,
       "random-note:开始漫游笔记": false,
-      "obsidian-excalidraw-plugin:新建 Excalidraw 绘图": false,
-      "webpage-html-export:Export Vault to HTML": false
+      "obsidian-excalidraw-plugin:新建 Excalidraw 绘图": false
     }
   },
+<<<<<<< HEAD
   "active": "d245db7a752e458f",
   "lastOpenFiles": [
     "CandCPP/C/c语言oop.md",
     "index.md",
+=======
+<<<<<<< Updated upstream
+  "active": "e5e7aca056779989",
+  "lastOpenFiles": [
+    "CandCPP/C/c语言oop.md",
+=======
+  "active": "1858f47baa9c494d",
+  "lastOpenFiles": [
+    "Cmake/cmake入门.md",
+    "编程学习.md",
+    "Cmake/cmake关键字.md",
+    "Cmake/cmake目录.md",
+    "CandCPP/CandCPPconst.md",
+    "CandCPP/CandCpp基础数据变量.md",
+    "CandCPP/CandCpp函数.md",
+>>>>>>> Stashed changes
+>>>>>>> test
     "CandCPP/C/C语言实现泛型.md",
+    "CandCPP/C/c语言oop.md",
     "CandCPP/C/c语言常用库.md",
-    "CandCPP/C/C语言常用库ctype.h.md",
     "CandCPP/C/C语言常用库math.h.md",
+    "CandCPP/C/C语言设计.md",
+    "CandCPP/C/C语言常用库ctype.h.md",
     "CandCPP/C/C语言常用库string.h.md",
     "CandCPP/C/C语言自写常用函数.md",
-    "CandCPP/C/C语言设计.md",
-    "CandCPP/CandCPPconst.md",
-    "CandCPP/CandCpp函数.md",
-    "CandCPP/CandCpp基础数据变量.md",
+    "CandCPP/CandCpp指针进阶.md",
     "CandCPP/CandCpp底层知识.md",
     "CandCPP/CandCpp指针.md",
     "CandCPP/CandCpp数组.md",
     "CandCPP/CandCPP文件操作.md",
     "CandCPP/CandCpp枚举.md",
     "CandCPP/CandCpp标准输入输出.md",
-    "CandCPP/CandCpp流程控制.md",
     "CandCPP/CandCpp结构体.md",
-    "CandCPP/CandCpp运算符.md",
     "CandCPP/CandCpp预处理.md",
+<<<<<<< HEAD
     "CandCPP/cppauto之力.md",
+=======
+<<<<<<< Updated upstream
+>>>>>>> test
     "CandCPP/cppNewAndDelete操作符.md",
     "CandCPP/cpp内联函数.md",
     "CandCPP/cpp函数进阶.md",
@@ -249,17 +319,27 @@
     "obsidian配置文件/obsidian资源文件/Pasted image 20230315220305.png",
     "obsidian配置文件/obsidian资源文件/Pasted image 20230315220147.png",
     "obsidian配置文件/obsidian资源文件/Pasted image 20230315220031.png",
+=======
+    "CandCPP/CandCpp流程控制.md",
+    "CandCPP/CandCpp运算符.md",
+    "obsidian配置文件/obsidian资源文件/编程/Pasted image 20230115204302.png",
+    "obsidian配置文件/obsidian资源文件/编程/指针学习思维导图.png",
+>>>>>>> Stashed changes
     "obsidian配置文件/obsidian资源文件/Pasted image 20230315220118.png",
-    "obsidian配置文件/obsidian资源文件/Pasted image 20230224133047.png",
+    "obsidian配置文件/obsidian资源文件/Pasted image 20230204162638.png",
+    "obsidian配置文件/obsidian资源文件/Pasted image 20230204204507.png",
+    "obsidian配置文件/obsidian资源文件/Pasted image 20230204205125.png",
+    "obsidian配置文件/obsidian资源文件/Pasted image 20230204212753.png",
     "obsidian配置文件/obsidian资源文件/Pasted image 20230311171930.png",
-    "obsidian配置文件/obsidian资源文件/Pasted image 20230221214457.png",
-    "obsidian配置文件/obsidian资源文件/Pasted image 20230210213626.png",
+    "obsidian配置文件/obsidian资源文件/Pasted image 20230315220147.png",
+    "obsidian配置文件/obsidian资源文件/Pasted image 20230315220305.png",
+    "daliylife/计划/每日两题2023-1-11.canvas",
+    "daliylife/计划/每日两题2023-1-14.canvas",
+    "设计模式",
     "CandCPP/cpp设计案例/C条件判断逻辑图.canvas",
     "daliylife/日记meme/未命名.canvas",
     "CandCPP/tree/main",
     "CandCPP/tree",
-    "daliylife/计划/每日两题2023-1-11.canvas",
-    "daliylife/计划/每日两题2023-1-14.canvas",
     "C语言malloc",
     "cppnew",
     "汇编asm",
@@ -268,7 +348,6 @@
     "未命名.canvas",
     "OpenCV",
     "CandCPP/现代cpp",
-    "Cmake",
-    "嵌入式/51开发板"
+    "Cmake"
   ]
 }
