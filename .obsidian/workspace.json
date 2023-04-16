@@ -1,0 +1,353 @@
+{
+  "main": {
+    "id": "31e3e85fb1306c4d",
+    "type": "split",
+    "children": [
+      {
+        "id": "e3529c1c0486d3f4",
+        "type": "tabs",
+        "children": [
+          {
+<<<<<<< HEAD
+            "id": "d245db7a752e458f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "index.md",
+=======
+<<<<<<< Updated upstream
+            "id": "e5e7aca056779989",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+=======
+            "id": "1858f47baa9c494d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "编程学习.md",
+>>>>>>> test
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+<<<<<<< HEAD
+=======
+>>>>>>> Stashed changes
+>>>>>>> test
+            }
+          }
+        ],
+        "stacked": true
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "b8902d3facd010e9",
+    "type": "split",
+    "children": [
+      {
+        "id": "a3b6f9e6f6a1c174",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "a5420414ef66e53c",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "5ae85712d1fe154a",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": true,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "a4957a3d3225ad36",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          },
+          {
+            "id": "ef25f5e1252f039d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "obsidian配置文件/obsidian插件/自定义快捷键.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 212.5
+  },
+  "right": {
+    "id": "4e548b0c4d29bf1c",
+    "type": "split",
+    "children": [
+      {
+        "id": "72afd76592029e38",
+        "type": "tabs",
+        "dimension": 63.84803921568627,
+        "children": [
+          {
+            "id": "7839f188796ff3fc",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+<<<<<<< HEAD
+              "state": {
+                "file": "index.md"
+              }
+=======
+<<<<<<< Updated upstream
+              "state": {}
+=======
+              "state": {
+                "file": "编程学习.md"
+              }
+>>>>>>> Stashed changes
+>>>>>>> test
+            }
+          },
+          {
+            "id": "8dfd7ce140d30546",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": false
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "9ee13e2436c67e54",
+        "type": "tabs",
+        "dimension": 36.15196078431372,
+        "children": [
+          {
+            "id": "a534597679f397ba",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+<<<<<<< HEAD
+                "file": "index.md",
+=======
+<<<<<<< Updated upstream
+=======
+                "file": "编程学习.md",
+>>>>>>> Stashed changes
+>>>>>>> test
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "f59645b97294fa4a",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+<<<<<<< HEAD
+                "file": "index.md",
+=======
+<<<<<<< Updated upstream
+=======
+                "file": "编程学习.md",
+>>>>>>> Stashed changes
+>>>>>>> test
+                "linksCollapsed": false,
+                "unlinkedCollapsed": false
+              }
+            }
+          },
+          {
+            "id": "cfe9445083d867c4",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {}
+            }
+          },
+          {
+            "id": "ae12bfeda51c9fa8",
+            "type": "leaf",
+            "state": {
+              "type": "localgraph",
+              "state": {
+<<<<<<< HEAD
+                "file": "index.md",
+=======
+<<<<<<< Updated upstream
+=======
+                "file": "编程学习.md",
+>>>>>>> Stashed changes
+>>>>>>> test
+                "options": {
+                  "collapse-filter": false,
+                  "search": "",
+                  "localJumps": 1,
+                  "localBacklinks": true,
+                  "localForelinks": true,
+                  "localInterlinks": false,
+                  "showTags": false,
+                  "showAttachments": false,
+                  "hideUnresolved": false,
+                  "collapse-color-groups": false,
+                  "colorGroups": [],
+                  "collapse-display": true,
+                  "showArrow": true,
+                  "textFadeMultiplier": -3,
+                  "nodeSizeMultiplier": 1,
+                  "lineSizeMultiplier": 1,
+                  "collapse-forces": true,
+                  "centerStrength": 0.518713248970312,
+                  "repelStrength": 10,
+                  "linkStrength": 1,
+                  "linkDistance": 250,
+                  "scale": 0.49463636100664743,
+                  "close": true
+                }
+              }
+            }
+          }
+        ],
+        "currentTab": 3
+      }
+    ],
+    "direction": "horizontal",
+    "width": 233.5
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "webpage-html-export:Export Vault to HTML": false,
+      "canvas:新建白板": false,
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": true,
+      "workspaces:管理工作区布局": false,
+      "random-note:开始漫游笔记": false,
+      "obsidian-excalidraw-plugin:新建 Excalidraw 绘图": false
+    }
+  },
+<<<<<<< HEAD
+  "active": "d245db7a752e458f",
+  "lastOpenFiles": [
+    "CandCPP/C/c语言oop.md",
+    "index.md",
+=======
+<<<<<<< Updated upstream
+  "active": "e5e7aca056779989",
+  "lastOpenFiles": [
+    "CandCPP/C/c语言oop.md",
+=======
+  "active": "1858f47baa9c494d",
+  "lastOpenFiles": [
+    "Cmake/cmake入门.md",
+    "编程学习.md",
+    "Cmake/cmake关键字.md",
+    "Cmake/cmake目录.md",
+    "CandCPP/CandCPPconst.md",
+    "CandCPP/CandCpp基础数据变量.md",
+    "CandCPP/CandCpp函数.md",
+>>>>>>> Stashed changes
+>>>>>>> test
+    "CandCPP/C/C语言实现泛型.md",
+    "CandCPP/C/c语言oop.md",
+    "CandCPP/C/c语言常用库.md",
+    "CandCPP/C/C语言常用库math.h.md",
+    "CandCPP/C/C语言设计.md",
+    "CandCPP/C/C语言常用库ctype.h.md",
+    "CandCPP/C/C语言常用库string.h.md",
+    "CandCPP/C/C语言自写常用函数.md",
+    "CandCPP/CandCpp指针进阶.md",
+    "CandCPP/CandCpp底层知识.md",
+    "CandCPP/CandCpp指针.md",
+    "CandCPP/CandCpp数组.md",
+    "CandCPP/CandCPP文件操作.md",
+    "CandCPP/CandCpp枚举.md",
+    "CandCPP/CandCpp标准输入输出.md",
+    "CandCPP/CandCpp结构体.md",
+    "CandCPP/CandCpp预处理.md",
+<<<<<<< HEAD
+    "CandCPP/cppauto之力.md",
+=======
+<<<<<<< Updated upstream
+>>>>>>> test
+    "CandCPP/cppNewAndDelete操作符.md",
+    "CandCPP/cpp内联函数.md",
+    "CandCPP/cpp函数进阶.md",
+    "obsidian配置文件/obsidian资源文件/Pasted image 20230414172428.png",
+    "obsidian配置文件/obsidian资源文件/Pasted image 20230410205915.png",
+    "obsidian配置文件/obsidian资源文件/Pasted image 20230315220305.png",
+    "obsidian配置文件/obsidian资源文件/Pasted image 20230315220147.png",
+    "obsidian配置文件/obsidian资源文件/Pasted image 20230315220031.png",
+=======
+    "CandCPP/CandCpp流程控制.md",
+    "CandCPP/CandCpp运算符.md",
+    "obsidian配置文件/obsidian资源文件/编程/Pasted image 20230115204302.png",
+    "obsidian配置文件/obsidian资源文件/编程/指针学习思维导图.png",
+>>>>>>> Stashed changes
+    "obsidian配置文件/obsidian资源文件/Pasted image 20230315220118.png",
+    "obsidian配置文件/obsidian资源文件/Pasted image 20230204162638.png",
+    "obsidian配置文件/obsidian资源文件/Pasted image 20230204204507.png",
+    "obsidian配置文件/obsidian资源文件/Pasted image 20230204205125.png",
+    "obsidian配置文件/obsidian资源文件/Pasted image 20230204212753.png",
+    "obsidian配置文件/obsidian资源文件/Pasted image 20230311171930.png",
+    "obsidian配置文件/obsidian资源文件/Pasted image 20230315220147.png",
+    "obsidian配置文件/obsidian资源文件/Pasted image 20230315220305.png",
+    "daliylife/计划/每日两题2023-1-11.canvas",
+    "daliylife/计划/每日两题2023-1-14.canvas",
+    "设计模式",
+    "CandCPP/cpp设计案例/C条件判断逻辑图.canvas",
+    "daliylife/日记meme/未命名.canvas",
+    "CandCPP/tree/main",
+    "CandCPP/tree",
+    "C语言malloc",
+    "cppnew",
+    "汇编asm",
+    "English/单词.canvas",
+    "DataStructuresAndAlgorithms/stl",
+    "未命名.canvas",
+    "OpenCV",
+    "CandCPP/现代cpp",
+    "Cmake"
+  ]
+}
