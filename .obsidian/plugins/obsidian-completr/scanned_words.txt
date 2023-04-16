@@ -407,6 +407,8 @@ Cii
 Cpsa
 CCCl
 CAL
+Computer
+Catgouzao
 define
 data
 document
@@ -630,6 +632,12 @@ dlw
 dhRU
 dYF
 dYf
+doSpeak
+dog
+dospeak
+divCalculator
+display
+delelte
 bss
 beyI
 bbcc
@@ -841,6 +849,7 @@ bMmq
 bRVT
 bFB
 beKm
+bottomPage
 font
 files
 ffb
@@ -1016,6 +1025,7 @@ fYh
 fFp
 fcc
 fFomtO
+friend
 color
 const
 cae
@@ -1278,6 +1288,11 @@ cmW
 ckO
 cmx
 coq
+cat
+calculate
+calcutale
+conputer
+centerPage
 rgb
 rAa
 radius
@@ -1436,6 +1451,8 @@ rYX
 rtww
 rapp
 rcJ
+ram
+rightPage
 nodes
 name
 new
@@ -1963,6 +1980,9 @@ tUU
 tdK
 tIP
 tsn
+tag
+tip
+topPage
 Switch
 ShotGun
 Stroustrup
@@ -2164,6 +2184,10 @@ SrGGG
 SuK
 SuDO
 Sds
+Student
+Success
+SPI
+Son
 EXCALIDRAW
 Elements
 EHy
@@ -2756,6 +2780,9 @@ idZ
 ijjb
 izLFdkw
 itrfAqt
+intelcpu
+intelgpu
+intelram
 MORE
 MAX
 MR
@@ -2966,6 +2993,10 @@ MWX
 MiJ
 MAY
 MPqzD
+MyInteger
+MyString
+Mystring
+MyFunc
 OPTIONS
 OR
 Operation
@@ -3131,6 +3162,7 @@ Owq
 OxC
 OEK
 OZQ
+Output
 menu
 md
 mUFaWKdt
@@ -3339,6 +3371,10 @@ mPL
 mTu
 mBG
 mEcCFU
+multCalculator
+myInt
+modeling
+miao
 of
 output
 obsidian
@@ -3506,6 +3542,7 @@ oatt
 oFuu
 owgwvf
 oeX
+ostream
 Drawing
 DNS
 DEC
@@ -3736,6 +3773,10 @@ DccTL
 Duu
 Dwp
 DBU
+Dog
+DengZi
+Doggouzao
+Dogxigou
 Text
 Tab
 The
@@ -3927,6 +3968,8 @@ TBcc
 TUec
 TBo
 TLDR
+Tom
+Tommiao
 WGm
 WG
 Wsr
@@ -4271,6 +4314,8 @@ Bmm
 BSEm
 BKK
 Boo
+Base
+BaseClass
 aGh
 ac
 af
@@ -4469,6 +4514,9 @@ app
 aJPU
 amn
 aTm
+animal
+addCalculator
+abcde
 QOtn
 QzweAVry
 QTr
@@ -4639,6 +4687,7 @@ QKm
 QXL
 QSS
 QUUUd
+Question
 yB
 you
 yBGk
@@ -4959,6 +5008,8 @@ wuU
 wrV
 whllD
 wIG
+work
+wang
 height
 html
 has
@@ -5146,6 +5197,7 @@ hjj
 hnnFYY
 hooG
 hkkC
+high
 AAVtmA
 AND
 AD
@@ -5331,6 +5383,9 @@ AMt
 ASS
 Acc
 ABx
+AbstractCalculator
+Animalgouzao
+Animalxigou
 gzAMcZbP
 gBod
 getL
@@ -5526,6 +5581,8 @@ gPVV
 grIUU
 gSY
 gTh
+getResult
+gpu
 XzEFwEQa
 XX
 XOR
@@ -5855,6 +5912,14 @@ LCUU
 Lbdd
 LsF
 LXv
+Lenovo
+LenovoCPU
+LenovoCPUstartCalculate
+LenovoGPU
+LenovoGPUstartDisplay
+LenovoRAM
+LenovoGPUstartStorage
+LED
 xgf
 xgySEvv
 xsS
@@ -5998,6 +6063,8 @@ xVIJ
 xPQQ
 xPSS
 xWO
+xafbbd
+xigou
 JFu
 Jp
 John
@@ -6847,6 +6914,7 @@ PLJV
 PLa
 PpO
 PZqa
+Purpose
 shadow
 style
 setL
@@ -7096,6 +7164,12 @@ sDU
 sssHg
 shZ
 sqiaThP
+stu
+subCalculator
+storage
+success
+szie
+sizt
 HTML
 He
 Hello
@@ -7284,6 +7358,7 @@ Hee
 HtI
 HNg
 Hqp
+Hunter
 Nelson
 NUG
 NDnW
@@ -7651,6 +7726,7 @@ lXW
 lKF
 lFw
 lRfB
+leftPage
 UNIX
 UNCOUNT
 UnionL
@@ -7832,6 +7908,7 @@ UXt
 Uttt
 UVV
 UiWo
+UML
 Kernighan
 KTuP
 KTu
@@ -8539,6 +8616,15 @@ IEv
 IEi
 IDATqPQ
 IPN
+Inter
+IntelCPU
+IntelCPUstartCalculate
+IntelGPU
+IntelGPUstartDisplay
+IntelRAM
+IntelRAMstartStorage
+Int
+Input
 quality
 qC
 qs
@@ -8691,6 +8777,11 @@ qsb
 qcc
 qCv
 qPrZ
+<<<<<<< Updated upstream
+=======
+qsort
+question
+>>>>>>> Stashed changes
 FF
 FE
 FC
@@ -9046,6 +9137,9 @@ GUU
 GdB
 GEp
 GMS
+GPU
+GPIO
+General
 jp
 jTU
 jL
