@@ -1,125 +1,52 @@
-# 1. 关于
+# 个人博客+作品集
 
-Blog-Index 通用网站导航
+## 个人信息
 
-![](https://img.shields.io/badge/Base-Vue3-brightgreen.svg)
-![](https://img.shields.io/badge/Build-Vite-orange.svg)
-![](https://img.shields.io/badge/Installer-Yarn-blue.svg)
+- 商务联系：19865072944
+- 邮箱：2580862656@qq.com
 
-[预览链接](https://www.esunr.site) | [友链交换区](https://github.com/EsunR/Blog-Index/issues/53) | [更新日志](./CHANGELOG.md)
+## 教育背景
 
-![](./demo/show.png)
+- 主修：高等数学、程序设计（C++/Python）、数据结构与算法、计算机组成原理、操作系统、计算机网络、数据库系统、软件工程、嵌入式系统、移动应用开发
 
-这是一个基于 Vue 的通用网站导航页面，你可以将其放在个人网站的首页作为您博客的引导页面或者是您其他项目的引导页。使用自适应布局兼容多端显示，方便游客浏览您的个人网站，背景图来自于 Bing 每日图片。
+## 项目经验
 
-# 2. 使用方法
+### 1. AI大模型集成电路故障诊断 (全栈)
 
-## 2.1 自动部署
+- 构建多智能体协作系统，实现自动故障根因定位。
+- LangChain ReAct 推理-行动工作流，动态拆解问题并迭代收敛。
+- 结构化分析报告，提升自动化缺陷分析能力。
+- 算法：z-score、滑动窗口、相关性计算、逻辑分割。
+- 链接：https://github.com/lildengzi/aiops-rca
 
-### 一键部署
+### 2. 树莓派 + 阿里云远程温湿度控制系统 (测试 / 项目管理)
 
-> 该方式无法保持更新，如果想要保持更新，请不要使用该方式，并参考下面的『保持更新』。
+- 可靠性指标 ≥99.9%，命令延迟 ≤5s。
+- 设计功能/性能测试，使用 MQTTX 解决鉴权与主题匹配问题。
+- 完成 72h 连续运行，成功率 99.95%，平均延迟 1.2s。
+  嵌入式项目不方便演示
 
-点击按钮一键部署到 Vercel：
+### 3. 西电食堂点评系统 (测试负责人 & 文档作者)
 
-[![](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2FEsunR%2FBlog-Index&repository-name=Blog-Index)
+- 技术栈：Spring Boot + MyBatis + MySQL。
+- 后端：接口参数校验、数据库查询优化。
+- 测试：20+ 测试用例、JMeter 100 并发压测（首页 1.5s / 评论 2.8s / 搜索 0.8s）。
+- 质量：定位并推动修复 10+ 缺陷，测试覆盖率：代码 85%、功能 90%、接口 95%。
+- 文档：整理 10+ 功能模块、8 张数据表逻辑，完成 4 份核心文档。
+- 链接：https://github.com/lildengzi/xdudianping
 
-### 保持更新
+### 其他课题（大学实践）
 
-使用上面的一键部署后，Vercel 会默认为你创建一个新项目，而不是 fork 本项目，这会导致无法从 Github 上获取本项目的更新状态。你可以参考下面的教程手动 Fork 本项目，使用 Vercel 部署，并持续跟进本项目的更新。
+- FPGA 流水灯设计
+- 图书管理系统（本地）
+- H3B 网络工程管理设计（组网方案）
 
-图文教程：[《使用 Vercel 全自动部署个人网站》](https://blog.esunr.site/2022/07/0cce6064286a.html)
+## 技能与能力
 
-### 修改配置
+- 编程语言：C/C++、Python 熟练；Java / Go 熟悉。
+- 后端技术：Spring Boot、MyBatis、MySQL、REST API、MQTT、云平台服务。
+- 测试工具：JMeter、MQTTX、功能&性能测试、缺陷跟踪。
+- 其他：Linux、命令行、Office、文档撰写、项目管理。
+- 语言：大学英语4级，可熟练阅读和交流。
 
-进入到刚才由 Vercel 创建或你自己手动 Fork 的本项目 Github 仓库，并找到 `/src/config.ts` 文件，点击『编辑』按钮修改文件中的内容：
-
-![](https://esunr-image-bed.oss-cn-beijing.aliyuncs.com/picgo/202311031523211.png)
-
-Website 抽屉配置：
-
-```ts
-const WEBSITE_SORTS: WebsiteSort[] = [
-  {
-    title: "示例分类1",
-    sites: [
-      {
-        /** 网站标题 */
-        title: "主标题",
-        /** 网站 url */
-        url: "http://www.your-web-page.com/",
-        /** 网站 icon 图标，非必填，留空默认展示网站标题的第一个字符 */
-        icon: "",
-        /** 指定网站 icon 背景色 */
-        color: "#0171CD",
-      },
-    ],
-  },
-  // ... ...
-];
-```
-
-等待 Vercel 重新部署即可。
-
-## 2.2 手动部署
-
-### 拉取代码并安装依赖
-
-本地环境要求（可使用 volar 自动切换环境）：
-
-- node >= 18
-- yarn 1.22.19
-
-拉取代码并安装依赖：
-
-```sh
-git clone https://github.com/EsunR/Blog-Index.git
-cd ./Blog-Index
-yarn install
-```
-
-### 按需修改配置文件
-
-修改 src/config.ts 文件中的内容，同上。
-
-### 打包编译
-
-```sh
-yarn build
-```
-
-将 dist 目录下的文件部署到服务器即可。
-
-# 3. 开发
-
-本地环境要求（可使用 [volta](https://blog.esunr.site/2023/07/d99593770741.html) 自动切换环境）：
-
-- node >= 18
-- yarn 1.22.19
-
-拉取代码并安装依赖：
-
-```sh
-git clone https://github.com/EsunR/Blog-Index.git
-cd ./Blog-Index
-yarn install
-```
-
-启动开发模式：
-
-```sh
-yarn dev
-```
-
-# 4. 未来计划
-
-- [x] 使用 Vite + Vue3 + Typescript 搭建项目
-- [x] 优化代码结构，减轻包体积
-- [x] 重构已有功能
-  - [x] 重构首页组件
-  - [x] 重构抽屉组件
-- [x] 采用 SSG 构建静态页面
-- [ ] 优化配置文件，加入主题相关配置
-- [ ] 更好的 seo
-- [ ] 自动暗夜模式
-- [ ] 加入站点统计
+---
