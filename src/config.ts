@@ -8,6 +8,7 @@ const WEBSITE_SORTS: WebsiteSort[] = [
         description: "全栈开发：多智能体协作+LangChain ReAct工作流+结构化报表+算法分割（zscore、滑动窗口、相关性）",
         url: "https://github.com/lildengzi/aiops-rca",
         icon: "",
+        color: "#42b983",
       },
       {
         title: "树莓派+阿里云远程温湿度控制系统",
@@ -29,16 +30,19 @@ const WEBSITE_SORTS: WebsiteSort[] = [
       {
         title: "FPGA流水灯设计",
         description: "硬件逻辑设计与定时控制，实现可视化流水灯、可扩展模块化架构",
+        url: "https://github.com/lildengzi",
         icon: "",
       },
       {
         title: "图书管理系统（本地版）",
         description: "或C++实现图书借还、用户管理、查询统计功能",
+        url: "https://github.com/lildengzi",
         icon: "",
       },
       {
         title: "H3B网络工程管理设计",
         description: "组网方案设计与优化，覆盖策略、路由规划、性能分析",
+        url: "https://github.com/lildengzi",
         icon: "",
       },
     ],
@@ -49,16 +53,19 @@ const WEBSITE_SORTS: WebsiteSort[] = [
       {
         title: "编程语言",
         description: "C/C++、Python 熟练；Java、Go 熟悉；SQL、Shell 常用",
+        url: "https://github.com/lildengzi",
         icon: "",
       },
       {
         title: "后端栈",
         description: "Spring Boot、MyBatis、MySQL、REST API、MQTT、云服务",
+        url: "https://github.com/lildengzi",
         icon: "",
       },
       {
         title: "开发与测试",
         description: "Linux、Git、命令行工具、自动化测试、性能调优、文档与需求分析",
+        url: "https://github.com/lildengzi",
         icon: "",
       },
     ],
@@ -99,11 +106,7 @@ const GLOBAL_CONFIG = {
    * 网站欢迎标语
    */
   SLOGANS: [
-    "应届生：后端开发，期望深圳 15k-18k",
-    "工具：C/C++/Python 熟练，Java/Go 熟悉",
-    "项目：AI 故障诊断、远程 IoT 控制、Spring Boot 食堂点评",
-    "目标：快速融入后端团队，实现高可用业务服务",
-    "欢迎联系：19865072944 / 2580862656@qq.com",
+    "欢迎来到我的后端开发作品集！",
   ],
   /**
    * Website 分类配置
