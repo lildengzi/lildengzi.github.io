@@ -70,6 +70,17 @@ const WEBSITE_SORTS: WebsiteSort[] = [
       },
     ],
   },
+  {
+    title: "编程学习笔记",
+    sites: [
+      {
+        title: "编程学习笔记汇总",
+        description: "C/C++、Python、数据结构、算法、Docker、CMake、设计模式等学习笔记",
+        url: "/notes/编程学习.html",
+        icon: "",
+      },
+    ],
+  },
 ] as WebsiteSort[];
 
 /** Website 配置（2023.3.29 已废弃） */

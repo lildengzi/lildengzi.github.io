@@ -15,5 +15,6 @@ export default () => {
       },
     },
     envDir: "./",
+    publicDir: "public",
   });
 };
