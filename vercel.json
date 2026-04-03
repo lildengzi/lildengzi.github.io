@@ -1,5 +1,1656 @@
-{
-  "github": {
-    "silent": true
+[
+  {
+    "type": "staticAssets",
+    "artefacts": [
+      {
+        "path": "/assets/app-fdb4b2c1.js",
+        "type": "JS",
+        "size": 111041
+      },
+      {
+        "path": "/assets/app-fdb4b2c1.js.gz",
+        "type": "Misc",
+        "size": 42542
+      },
+      {
+        "path": "/assets/index-ad27dd17.css",
+        "type": "CSS",
+        "size": 8536
+      },
+      {
+        "path": "/assets/index-ad27dd17.css.gz",
+        "type": "Misc",
+        "size": 2174
+      },
+      {
+        "path": "/assets/logo-d58be958.svg",
+        "type": "Image",
+        "size": 4036
+      },
+      {
+        "path": "/favicon.ico",
+        "type": "Image",
+        "size": 4286
+      },
+      {
+        "path": "/index.html",
+        "type": "HTML",
+        "size": 3210
+      },
+      {
+        "path": "/notes/编程学习.html",
+        "type": "HTML",
+        "size": 409747
+      },
+      {
+        "path": "/notes/编程学习.html.gz",
+        "type": "Misc",
+        "size": 62688
+      },
+      {
+        "path": "/notes/CandCPP/工程文件学习.html",
+        "type": "HTML",
+        "size": 376363
+      },
+      {
+        "path": "/notes/CandCPP/工程文件学习.html.gz",
+        "type": "Misc",
+        "size": 58199
+      },
+      {
+        "path": "/notes/CandCPP/现代cpp/函数后关键字.html",
+        "type": "HTML",
+        "size": 381102
+      },
+      {
+        "path": "/notes/CandCPP/现代cpp/函数后关键字.html.gz",
+        "type": "Misc",
+        "size": 58666
+      },
+      {
+        "path": "/notes/CandCPP/现代cpp/现代cpp.html",
+        "type": "HTML",
+        "size": 377335
+      },
+      {
+        "path": "/notes/CandCPP/现代cpp/现代cpp.html.gz",
+        "type": "Misc",
+        "size": 58356
+      },
+      {
+        "path": "/notes/CandCPP/现代cpp/新遍历方法.html",
+        "type": "HTML",
+        "size": 398385
+      },
+      {
+        "path": "/notes/CandCPP/现代cpp/新遍历方法.html.gz",
+        "type": "Misc",
+        "size": 60835
+      },
+      {
+        "path": "/notes/CandCPP/现代cpp/新对象特性.html",
+        "type": "HTML",
+        "size": 377505
+      },
+      {
+        "path": "/notes/CandCPP/现代cpp/新对象特性.html.gz",
+        "type": "Misc",
+        "size": 58580
+      },
+      {
+        "path": "/notes/CandCPP/现代cpp/新关键字.html",
+        "type": "HTML",
+        "size": 384362
+      },
+      {
+        "path": "/notes/CandCPP/现代cpp/新关键字.html.gz",
+        "type": "Misc",
+        "size": 59801
+      },
+      {
+        "path": "/notes/CandCPP/现代cpp/智能指针.html",
+        "type": "HTML",
+        "size": 396110
+      },
+      {
+        "path": "/notes/CandCPP/现代cpp/智能指针.html.gz",
+        "type": "Misc",
+        "size": 61196
+      },
+      {
+        "path": "/notes/CandCPP/现代cpp/lambda.html",
+        "type": "HTML",
+        "size": 705110
+      },
+      {
+        "path": "/notes/CandCPP/现代cpp/lambda.html.gz",
+        "type": "Misc",
+        "size": 286270
+      },
+      {
+        "path": "/notes/CandCPP/C/c语言常用库.html",
+        "type": "HTML",
+        "size": 386090
+      },
+      {
+        "path": "/notes/CandCPP/C/c语言常用库.html.gz",
+        "type": "Misc",
+        "size": 60077
+      },
+      {
+        "path": "/notes/CandCPP/C/c语言常用库ctime.html",
+        "type": "HTML",
+        "size": 380154
+      },
+      {
+        "path": "/notes/CandCPP/C/c语言常用库ctime.html.gz",
+        "type": "Misc",
+        "size": 59097
+      },
+      {
+        "path": "/notes/CandCPP/C/C语言常用库ctype.h.html",
+        "type": "HTML",
+        "size": 380965
+      },
+      {
+        "path": "/notes/CandCPP/C/C语言常用库ctype.h.html.gz",
+        "type": "Misc",
+        "size": 59532
+      },
+      {
+        "path": "/notes/CandCPP/C/C语言常用库math.h.html",
+        "type": "HTML",
+        "size": 389416
+      },
+      {
+        "path": "/notes/CandCPP/C/C语言常用库math.h.html.gz",
+        "type": "Misc",
+        "size": 59757
+      },
+      {
+        "path": "/notes/CandCPP/C/C语言常用库string.h.html",
+        "type": "HTML",
+        "size": 387940
+      },
+      {
+        "path": "/notes/CandCPP/C/C语言常用库string.h.html.gz",
+        "type": "Misc",
+        "size": 59603
+      },
+      {
+        "path": "/notes/CandCPP/C/C语言设计.html",
+        "type": "HTML",
+        "size": 376780
+      },
+      {
+        "path": "/notes/CandCPP/C/C语言设计.html.gz",
+        "type": "Misc",
+        "size": 58298
+      },
+      {
+        "path": "/notes/CandCPP/C/C语言实现泛型.html",
+        "type": "HTML",
+        "size": 386861
+      },
+      {
+        "path": "/notes/CandCPP/C/C语言实现泛型.html.gz",
+        "type": "Misc",
+        "size": 60343
+      },
+      {
+        "path": "/notes/CandCPP/C/c语言oop.html",
+        "type": "HTML",
+        "size": 382800
+      },
+      {
+        "path": "/notes/CandCPP/C/c语言oop.html.gz",
+        "type": "Misc",
+        "size": 58792
+      },
+      {
+        "path": "/notes/CandCPP/c和cpp入门.html",
+        "type": "HTML",
+        "size": 391547
+      },
+      {
+        "path": "/notes/CandCPP/c和cpp入门.html.gz",
+        "type": "Misc",
+        "size": 61020
+      },
+      {
+        "path": "/notes/CandCPP/C语言存储类型.html",
+        "type": "HTML",
+        "size": 389366
+      },
+      {
+        "path": "/notes/CandCPP/C语言存储类型.html.gz",
+        "type": "Misc",
+        "size": 60211
+      },
+      {
+        "path": "/notes/CandCPP/C语言MallocFree.html",
+        "type": "HTML",
+        "size": 381196
+      },
+      {
+        "path": "/notes/CandCPP/C语言MallocFree.html.gz",
+        "type": "Misc",
+        "size": 58963
+      },
+      {
+        "path": "/notes/CandCPP/CandCpp标准输入输出.html",
+        "type": "HTML",
+        "size": 383352
+      },
+      {
+        "path": "/notes/CandCPP/CandCpp标准输入输出.html.gz",
+        "type": "Misc",
+        "size": 58968
+      },
+      {
+        "path": "/notes/CandCPP/CandCpp底层知识.html",
+        "type": "HTML",
+        "size": 672998
+      },
+      {
+        "path": "/notes/CandCPP/CandCpp底层知识.html.gz",
+        "type": "Misc",
+        "size": 264496
+      },
+      {
+        "path": "/notes/CandCPP/CandCpp函数.html",
+        "type": "HTML",
+        "size": 411479
+      },
+      {
+        "path": "/notes/CandCPP/CandCpp函数.html.gz",
+        "type": "Misc",
+        "size": 62367
+      },
+      {
+        "path": "/notes/CandCPP/CandCpp基础数据变量.html",
+        "type": "HTML",
+        "size": 432857
+      },
+      {
+        "path": "/notes/CandCPP/CandCpp基础数据变量.html.gz",
+        "type": "Misc",
+        "size": 65493
+      },
+      {
+        "path": "/notes/CandCPP/CandCpp结构体.html",
+        "type": "HTML",
+        "size": 396171
+      },
+      {
+        "path": "/notes/CandCPP/CandCpp结构体.html.gz",
+        "type": "Misc",
+        "size": 61822
+      },
+      {
+        "path": "/notes/CandCPP/CandCpp流程控制.html",
+        "type": "HTML",
+        "size": 401737
+      },
+      {
+        "path": "/notes/CandCPP/CandCpp流程控制.html.gz",
+        "type": "Misc",
+        "size": 61395
+      },
+      {
+        "path": "/notes/CandCPP/CandCpp枚举.html",
+        "type": "HTML",
+        "size": 392048
+      },
+      {
+        "path": "/notes/CandCPP/CandCpp枚举.html.gz",
+        "type": "Misc",
+        "size": 60677
+      },
+      {
+        "path": "/notes/CandCPP/CandCpp数据变量进阶.html",
+        "type": "HTML",
+        "size": 390472
+      },
+      {
+        "path": "/notes/CandCPP/CandCpp数据变量进阶.html.gz",
+        "type": "Misc",
+        "size": 61769
+      },
+      {
+        "path": "/notes/CandCPP/CandCpp数组.html",
+        "type": "HTML",
+        "size": 392837
+      },
+      {
+        "path": "/notes/CandCPP/CandCpp数组.html.gz",
+        "type": "Misc",
+        "size": 62062
+      },
+      {
+        "path": "/notes/CandCPP/CandCPP文件操作.html",
+        "type": "HTML",
+        "size": 417170
+      },
+      {
+        "path": "/notes/CandCPP/CandCPP文件操作.html.gz",
+        "type": "Misc",
+        "size": 63420
+      },
+      {
+        "path": "/notes/CandCPP/CandCpp预处理.html",
+        "type": "HTML",
+        "size": 396397
+      },
+      {
+        "path": "/notes/CandCPP/CandCpp预处理.html.gz",
+        "type": "Misc",
+        "size": 61663
+      },
+      {
+        "path": "/notes/CandCPP/CandCpp运算符.html",
+        "type": "HTML",
+        "size": 413262
+      },
+      {
+        "path": "/notes/CandCPP/CandCpp运算符.html.gz",
+        "type": "Misc",
+        "size": 64303
+      },
+      {
+        "path": "/notes/CandCPP/CandCpp指针.html",
+        "type": "HTML",
+        "size": 1086389
+      },
+      {
+        "path": "/notes/CandCPP/CandCpp指针.html.gz",
+        "type": "Misc",
+        "size": 509033
+      },
+      {
+        "path": "/notes/CandCPP/CandCpp指针进阶.html",
+        "type": "HTML",
+        "size": 404458
+      },
+      {
+        "path": "/notes/CandCPP/CandCpp指针进阶.html.gz",
+        "type": "Misc",
+        "size": 62810
+      },
+      {
+        "path": "/notes/CandCPP/CandCPPconst.html",
+        "type": "HTML",
+        "size": 385861
+      },
+      {
+        "path": "/notes/CandCPP/CandCPPconst.html.gz",
+        "type": "Misc",
+        "size": 60719
+      },
+      {
+        "path": "/notes/CandCPP/cpp并发与多线程.html",
+        "type": "HTML",
+        "size": 387782
+      },
+      {
+        "path": "/notes/CandCPP/cpp并发与多线程.html.gz",
+        "type": "Misc",
+        "size": 60565
+      },
+      {
+        "path": "/notes/CandCPP/cpp常用库.html",
+        "type": "HTML",
+        "size": 382556
+      },
+      {
+        "path": "/notes/CandCPP/cpp常用库.html.gz",
+        "type": "Misc",
+        "size": 59599
+      },
+      {
+        "path": "/notes/CandCPP/cpp断言.html",
+        "type": "HTML",
+        "size": 385762
+      },
+      {
+        "path": "/notes/CandCPP/cpp断言.html.gz",
+        "type": "Misc",
+        "size": 60554
+      },
+      {
+        "path": "/notes/CandCPP/cpp多线程.html",
+        "type": "HTML",
+        "size": 397334
+      },
+      {
+        "path": "/notes/CandCPP/cpp多线程.html.gz",
+        "type": "Misc",
+        "size": 62498
+      },
+      {
+        "path": "/notes/CandCPP/cpp函数进阶.html",
+        "type": "HTML",
+        "size": 417084
+      },
+      {
+        "path": "/notes/CandCPP/cpp函数进阶.html.gz",
+        "type": "Misc",
+        "size": 63214
+      },
+      {
+        "path": "/notes/CandCPP/cpp进阶.html",
+        "type": "HTML",
+        "size": 392362
+      },
+      {
+        "path": "/notes/CandCPP/cpp进阶.html.gz",
+        "type": "Misc",
+        "size": 61638
+      },
+      {
+        "path": "/notes/CandCPP/cpp进阶模板编程.html",
+        "type": "HTML",
+        "size": 504960
+      },
+      {
+        "path": "/notes/CandCPP/cpp进阶模板编程.html.gz",
+        "type": "Misc",
+        "size": 68296
+      },
+      {
+        "path": "/notes/CandCPP/cpp类和对象/cpp对象特性.html",
+        "type": "HTML",
+        "size": 1424750
+      },
+      {
+        "path": "/notes/CandCPP/cpp类和对象/cpp对象特性.html.gz",
+        "type": "Misc",
+        "size": 652389
+      },
+      {
+        "path": "/notes/CandCPP/cpp类和对象/cpp多态.html",
+        "type": "HTML",
+        "size": 829053
+      },
+      {
+        "path": "/notes/CandCPP/cpp类和对象/cpp多态.html.gz",
+        "type": "Misc",
+        "size": 319581
+      },
+      {
+        "path": "/notes/CandCPP/cpp类和对象/cpp封装.html",
+        "type": "HTML",
+        "size": 390173
+      },
+      {
+        "path": "/notes/CandCPP/cpp类和对象/cpp封装.html.gz",
+        "type": "Misc",
+        "size": 60496
+      },
+      {
+        "path": "/notes/CandCPP/cpp类和对象/cpp继承.html",
+        "type": "HTML",
+        "size": 755501
+      },
+      {
+        "path": "/notes/CandCPP/cpp类和对象/cpp继承.html.gz",
+        "type": "Misc",
+        "size": 292999
+      },
+      {
+        "path": "/notes/CandCPP/cpp面向对象.html",
+        "type": "HTML",
+        "size": 411283
+      },
+      {
+        "path": "/notes/CandCPP/cpp面向对象.html.gz",
+        "type": "Misc",
+        "size": 63631
+      },
+      {
+        "path": "/notes/CandCPP/cpp命名空间.html",
+        "type": "HTML",
+        "size": 415901
+      },
+      {
+        "path": "/notes/CandCPP/cpp命名空间.html.gz",
+        "type": "Misc",
+        "size": 64107
+      },
+      {
+        "path": "/notes/CandCPP/cpp内联函数.html",
+        "type": "HTML",
+        "size": 399205
+      },
+      {
+        "path": "/notes/CandCPP/cpp内联函数.html.gz",
+        "type": "Misc",
+        "size": 62829
+      },
+      {
+        "path": "/notes/CandCPP/cpp设计案例/C条件判断逻辑图.html",
+        "type": "HTML",
+        "size": 421644
+      },
+      {
+        "path": "/notes/CandCPP/cpp设计案例/C条件判断逻辑图.html.gz",
+        "type": "Misc",
+        "size": 62158
+      },
+      {
+        "path": "/notes/CandCPP/cpp设计案例/cpp多态案例.html",
+        "type": "HTML",
+        "size": 434776
+      },
+      {
+        "path": "/notes/CandCPP/cpp设计案例/cpp多态案例.html.gz",
+        "type": "Misc",
+        "size": 61786
+      },
+      {
+        "path": "/notes/CandCPP/cpp设计案例/cpp封装案例.html",
+        "type": "HTML",
+        "size": 415143
+      },
+      {
+        "path": "/notes/CandCPP/cpp设计案例/cpp封装案例.html.gz",
+        "type": "Misc",
+        "size": 61310
+      },
+      {
+        "path": "/notes/CandCPP/cpp设计案例/cpp工程文件案例.html",
+        "type": "HTML",
+        "size": 392405
+      },
+      {
+        "path": "/notes/CandCPP/cpp设计案例/cpp工程文件案例.html.gz",
+        "type": "Misc",
+        "size": 60109
+      },
+      {
+        "path": "/notes/CandCPP/cpp设计案例/cpp函数重载案例.html",
+        "type": "HTML",
+        "size": 394648
+      },
+      {
+        "path": "/notes/CandCPP/cpp设计案例/cpp函数重载案例.html.gz",
+        "type": "Misc",
+        "size": 60538
+      },
+      {
+        "path": "/notes/CandCPP/cpp设计案例/cpp模板案例.html",
+        "type": "HTML",
+        "size": 419266
+      },
+      {
+        "path": "/notes/CandCPP/cpp设计案例/cpp模板案例.html.gz",
+        "type": "Misc",
+        "size": 62481
+      },
+      {
+        "path": "/notes/CandCPP/cpp设计案例/cpp异常处理案例.html",
+        "type": "HTML",
+        "size": 381827
+      },
+      {
+        "path": "/notes/CandCPP/cpp设计案例/cpp异常处理案例.html.gz",
+        "type": "Misc",
+        "size": 59568
+      },
+      {
+        "path": "/notes/CandCPP/cpp异常处理.html",
+        "type": "HTML",
+        "size": 391533
+      },
+      {
+        "path": "/notes/CandCPP/cpp异常处理.html.gz",
+        "type": "Misc",
+        "size": 61957
+      },
+      {
+        "path": "/notes/CandCPP/cpp引用.html",
+        "type": "HTML",
+        "size": 409973
+      },
+      {
+        "path": "/notes/CandCPP/cpp引用.html.gz",
+        "type": "Misc",
+        "size": 63109
+      },
+      {
+        "path": "/notes/CandCPP/cpp友元.html",
+        "type": "HTML",
+        "size": 395852
+      },
+      {
+        "path": "/notes/CandCPP/cpp友元.html.gz",
+        "type": "Misc",
+        "size": 61660
+      },
+      {
+        "path": "/notes/CandCPP/cpp运算符重载.html",
+        "type": "HTML",
+        "size": 467509
+      },
+      {
+        "path": "/notes/CandCPP/cpp运算符重载.html.gz",
+        "type": "Misc",
+        "size": 67022
+      },
+      {
+        "path": "/notes/CandCPP/cpp自动类型转换.html",
+        "type": "HTML",
+        "size": 396108
+      },
+      {
+        "path": "/notes/CandCPP/cpp自动类型转换.html.gz",
+        "type": "Misc",
+        "size": 62165
+      },
+      {
+        "path": "/notes/CandCPP/cppNewAndDelete操作符.html",
+        "type": "HTML",
+        "size": 391441
+      },
+      {
+        "path": "/notes/CandCPP/cppNewAndDelete操作符.html.gz",
+        "type": "Misc",
+        "size": 61492
+      },
+      {
+        "path": "/notes/CandCPP/STL/常用遍历算法.html",
+        "type": "HTML",
+        "size": 392775
+      },
+      {
+        "path": "/notes/CandCPP/STL/常用遍历算法.html.gz",
+        "type": "Misc",
+        "size": 59581
+      },
+      {
+        "path": "/notes/CandCPP/STL/常用查找算法.html",
+        "type": "HTML",
+        "size": 395488
+      },
+      {
+        "path": "/notes/CandCPP/STL/常用查找算法.html.gz",
+        "type": "Misc",
+        "size": 59919
+      },
+      {
+        "path": "/notes/CandCPP/STL/常用集合算法.html",
+        "type": "HTML",
+        "size": 387776
+      },
+      {
+        "path": "/notes/CandCPP/STL/常用集合算法.html.gz",
+        "type": "Misc",
+        "size": 59475
+      },
+      {
+        "path": "/notes/CandCPP/STL/常用拷贝和替换算法.html",
+        "type": "HTML",
+        "size": 395852
+      },
+      {
+        "path": "/notes/CandCPP/STL/常用拷贝和替换算法.html.gz",
+        "type": "Misc",
+        "size": 59614
+      },
+      {
+        "path": "/notes/CandCPP/STL/常用排序算法.html",
+        "type": "HTML",
+        "size": 394052
+      },
+      {
+        "path": "/notes/CandCPP/STL/常用排序算法.html.gz",
+        "type": "Misc",
+        "size": 59547
+      },
+      {
+        "path": "/notes/CandCPP/STL/常用算术生成算法.html",
+        "type": "HTML",
+        "size": 388775
+      },
+      {
+        "path": "/notes/CandCPP/STL/常用算术生成算法.html.gz",
+        "type": "Misc",
+        "size": 60081
+      },
+      {
+        "path": "/notes/CandCPP/STL/其他容器.html",
+        "type": "HTML",
+        "size": 913337
+      },
+      {
+        "path": "/notes/CandCPP/STL/其他容器.html.gz",
+        "type": "Misc",
+        "size": 400155
+      },
+      {
+        "path": "/notes/CandCPP/STL/list.html",
+        "type": "HTML",
+        "size": 622914
+      },
+      {
+        "path": "/notes/CandCPP/STL/list.html.gz",
+        "type": "Misc",
+        "size": 224804
+      },
+      {
+        "path": "/notes/CandCPP/STL/map.html",
+        "type": "HTML",
+        "size": 381579
+      },
+      {
+        "path": "/notes/CandCPP/STL/map.html.gz",
+        "type": "Misc",
+        "size": 59036
+      },
+      {
+        "path": "/notes/CandCPP/STL/pair对组.html",
+        "type": "HTML",
+        "size": 379616
+      },
+      {
+        "path": "/notes/CandCPP/STL/pair对组.html.gz",
+        "type": "Misc",
+        "size": 58850
+      },
+      {
+        "path": "/notes/CandCPP/STL/set.html",
+        "type": "HTML",
+        "size": 380816
+      },
+      {
+        "path": "/notes/CandCPP/STL/set.html.gz",
+        "type": "Misc",
+        "size": 58865
+      },
+      {
+        "path": "/notes/CandCPP/STL/STL初识.html",
+        "type": "HTML",
+        "size": 391089
+      },
+      {
+        "path": "/notes/CandCPP/STL/STL初识.html.gz",
+        "type": "Misc",
+        "size": 60828
+      },
+      {
+        "path": "/notes/CandCPP/STL/STL自带运算仿函数.html",
+        "type": "HTML",
+        "size": 383298
+      },
+      {
+        "path": "/notes/CandCPP/STL/STL自带运算仿函数.html.gz",
+        "type": "Misc",
+        "size": 59905
+      },
+      {
+        "path": "/notes/CandCPP/STL/string.html",
+        "type": "HTML",
+        "size": 413994
+      },
+      {
+        "path": "/notes/CandCPP/STL/string.html.gz",
+        "type": "Misc",
+        "size": 60882
+      },
+      {
+        "path": "/notes/CandCPP/STL/vector.html",
+        "type": "HTML",
+        "size": 690767
+      },
+      {
+        "path": "/notes/CandCPP/STL/vector.html.gz",
+        "type": "Misc",
+        "size": 231387
+      },
+      {
+        "path": "/notes/Cmake/cmake关键字.html",
+        "type": "HTML",
+        "size": 388229
+      },
+      {
+        "path": "/notes/Cmake/cmake关键字.html.gz",
+        "type": "Misc",
+        "size": 61240
+      },
+      {
+        "path": "/notes/Cmake/cmake基础知识.html",
+        "type": "HTML",
+        "size": 387021
+      },
+      {
+        "path": "/notes/Cmake/cmake基础知识.html.gz",
+        "type": "Misc",
+        "size": 60421
+      },
+      {
+        "path": "/notes/DataStructuresAndAlgorithms/数据结构与算法基础知识.html",
+        "type": "HTML",
+        "size": 448055
+      },
+      {
+        "path": "/notes/DataStructuresAndAlgorithms/数据结构与算法基础知识.html.gz",
+        "type": "Misc",
+        "size": 67248
+      },
+      {
+        "path": "/notes/DataStructuresAndAlgorithms/algorithm/排序/插入排序.html",
+        "type": "HTML",
+        "size": 386004
+      },
+      {
+        "path": "/notes/DataStructuresAndAlgorithms/algorithm/排序/插入排序.html.gz",
+        "type": "Misc",
+        "size": 60041
+      },
+      {
+        "path": "/notes/DataStructuresAndAlgorithms/algorithm/排序/堆排序.html",
+        "type": "HTML",
+        "size": 390740
+      },
+      {
+        "path": "/notes/DataStructuresAndAlgorithms/algorithm/排序/堆排序.html.gz",
+        "type": "Misc",
+        "size": 60582
+      },
+      {
+        "path": "/notes/DataStructuresAndAlgorithms/algorithm/排序/归并排序.html",
+        "type": "HTML",
+        "size": 391020
+      },
+      {
+        "path": "/notes/DataStructuresAndAlgorithms/algorithm/排序/归并排序.html.gz",
+        "type": "Misc",
+        "size": 60334
+      },
+      {
+        "path": "/notes/DataStructuresAndAlgorithms/algorithm/排序/计数排序.html",
+        "type": "HTML",
+        "size": 394081
+      },
+      {
+        "path": "/notes/DataStructuresAndAlgorithms/algorithm/排序/计数排序.html.gz",
+        "type": "Misc",
+        "size": 60379
+      },
+      {
+        "path": "/notes/DataStructuresAndAlgorithms/algorithm/排序/快速排序.html",
+        "type": "HTML",
+        "size": 388712
+      },
+      {
+        "path": "/notes/DataStructuresAndAlgorithms/algorithm/排序/快速排序.html.gz",
+        "type": "Misc",
+        "size": 60283
+      },
+      {
+        "path": "/notes/DataStructuresAndAlgorithms/algorithm/排序/冒泡排序.html",
+        "type": "HTML",
+        "size": 385786
+      },
+      {
+        "path": "/notes/DataStructuresAndAlgorithms/algorithm/排序/冒泡排序.html.gz",
+        "type": "Misc",
+        "size": 60034
+      },
+      {
+        "path": "/notes/DataStructuresAndAlgorithms/algorithm/排序/桶排序.html",
+        "type": "HTML",
+        "size": 383580
+      },
+      {
+        "path": "/notes/DataStructuresAndAlgorithms/algorithm/排序/桶排序.html.gz",
+        "type": "Misc",
+        "size": 59840
+      },
+      {
+        "path": "/notes/DataStructuresAndAlgorithms/algorithm/排序/希尔排序.html",
+        "type": "HTML",
+        "size": 386534
+      },
+      {
+        "path": "/notes/DataStructuresAndAlgorithms/algorithm/排序/希尔排序.html.gz",
+        "type": "Misc",
+        "size": 60100
+      },
+      {
+        "path": "/notes/DataStructuresAndAlgorithms/algorithm/排序/选择排序.html",
+        "type": "HTML",
+        "size": 386293
+      },
+      {
+        "path": "/notes/DataStructuresAndAlgorithms/algorithm/排序/选择排序.html.gz",
+        "type": "Misc",
+        "size": 60100
+      },
+      {
+        "path": "/notes/DataStructuresAndAlgorithms/algorithm/排序/al排序.html",
+        "type": "HTML",
+        "size": 384134
+      },
+      {
+        "path": "/notes/DataStructuresAndAlgorithms/algorithm/排序/al排序.html.gz",
+        "type": "Misc",
+        "size": 59796
+      },
+      {
+        "path": "/notes/DataStructuresAndAlgorithms/algorithm/字符串算法/暴力匹配.html",
+        "type": "HTML",
+        "size": 382427
+      },
+      {
+        "path": "/notes/DataStructuresAndAlgorithms/algorithm/字符串算法/暴力匹配.html.gz",
+        "type": "Misc",
+        "size": 59627
+      },
+      {
+        "path": "/notes/DataStructuresAndAlgorithms/algorithm/字符串算法/al字符串算法.html",
+        "type": "HTML",
+        "size": 382888
+      },
+      {
+        "path": "/notes/DataStructuresAndAlgorithms/algorithm/字符串算法/al字符串算法.html.gz",
+        "type": "Misc",
+        "size": 59708
+      },
+      {
+        "path": "/notes/DataStructuresAndAlgorithms/algorithm/字符串算法/KMP算法.html",
+        "type": "HTML",
+        "size": 409992
+      },
+      {
+        "path": "/notes/DataStructuresAndAlgorithms/algorithm/字符串算法/KMP算法.html.gz",
+        "type": "Misc",
+        "size": 63125
+      },
+      {
+        "path": "/notes/DataStructuresAndAlgorithms/algorithm/bubble.cpp",
+        "type": "Misc",
+        "size": 469
+      },
+      {
+        "path": "/notes/DataStructuresAndAlgorithms/data_structure/散列结构/哈希表.html",
+        "type": "HTML",
+        "size": 383941
+      },
+      {
+        "path": "/notes/DataStructuresAndAlgorithms/data_structure/散列结构/哈希表.html.gz",
+        "type": "Misc",
+        "size": 60272
+      },
+      {
+        "path": "/notes/DataStructuresAndAlgorithms/data_structure/树形结构/堆.html",
+        "type": "HTML",
+        "size": 382332
+      },
+      {
+        "path": "/notes/DataStructuresAndAlgorithms/data_structure/树形结构/堆.html.gz",
+        "type": "Misc",
+        "size": 59602
+      },
+      {
+        "path": "/notes/DataStructuresAndAlgorithms/data_structure/树形结构/二叉树.html",
+        "type": "HTML",
+        "size": 1086057
+      },
+      {
+        "path": "/notes/DataStructuresAndAlgorithms/data_structure/树形结构/二叉树.html.gz",
+        "type": "Misc",
+        "size": 498072
+      },
+      {
+        "path": "/notes/DataStructuresAndAlgorithms/data_structure/树形结构/红黑树.html",
+        "type": "HTML",
+        "size": 383025
+      },
+      {
+        "path": "/notes/DataStructuresAndAlgorithms/data_structure/树形结构/红黑树.html.gz",
+        "type": "Misc",
+        "size": 59752
+      },
+      {
+        "path": "/notes/DataStructuresAndAlgorithms/data_structure/树形结构/树.html",
+        "type": "HTML",
+        "size": 432821
+      },
+      {
+        "path": "/notes/DataStructuresAndAlgorithms/data_structure/树形结构/树.html.gz",
+        "type": "Misc",
+        "size": 78405
+      },
+      {
+        "path": "/notes/DataStructuresAndAlgorithms/data_structure/树形结构/AVL树.html",
+        "type": "HTML",
+        "size": 382991
+      },
+      {
+        "path": "/notes/DataStructuresAndAlgorithms/data_structure/树形结构/AVL树.html.gz",
+        "type": "Misc",
+        "size": 59734
+      },
+      {
+        "path": "/notes/DataStructuresAndAlgorithms/data_structure/图形结构/图.html",
+        "type": "HTML",
+        "size": 382896
+      },
+      {
+        "path": "/notes/DataStructuresAndAlgorithms/data_structure/图形结构/图.html.gz",
+        "type": "Misc",
+        "size": 59700
+      },
+      {
+        "path": "/notes/DataStructuresAndAlgorithms/data_structure/线性结构/队列.html",
+        "type": "HTML",
+        "size": 400615
+      },
+      {
+        "path": "/notes/DataStructuresAndAlgorithms/data_structure/线性结构/队列.html.gz",
+        "type": "Misc",
+        "size": 61391
+      },
+      {
+        "path": "/notes/DataStructuresAndAlgorithms/data_structure/线性结构/线性表.html",
+        "type": "HTML",
+        "size": 454138
+      },
+      {
+        "path": "/notes/DataStructuresAndAlgorithms/data_structure/线性结构/线性表.html.gz",
+        "type": "Misc",
+        "size": 65011
+      },
+      {
+        "path": "/notes/DataStructuresAndAlgorithms/data_structure/线性结构/栈.html",
+        "type": "HTML",
+        "size": 433439
+      },
+      {
+        "path": "/notes/DataStructuresAndAlgorithms/data_structure/线性结构/栈.html.gz",
+        "type": "Misc",
+        "size": 64443
+      },
+      {
+        "path": "/notes/DataStructuresAndAlgorithms/other/常见简单逻辑代码.html",
+        "type": "HTML",
+        "size": 435271
+      },
+      {
+        "path": "/notes/DataStructuresAndAlgorithms/other/常见简单逻辑代码.html.gz",
+        "type": "Misc",
+        "size": 63615
+      },
+      {
+        "path": "/notes/DataStructuresAndAlgorithms/other/连点器.cpp",
+        "type": "Misc",
+        "size": 4022
+      },
+      {
+        "path": "/notes/DataStructuresAndAlgorithms/other/BHD_converter.cpp",
+        "type": "Misc",
+        "size": 1456
+      },
+      {
+        "path": "/notes/DataStructuresAndAlgorithms/other/isbn.exe",
+        "type": "Misc",
+        "size": 49340
+      },
+      {
+        "path": "/notes/DataStructuresAndAlgorithms/other/reverse.c",
+        "type": "Misc",
+        "size": 764
+      },
+      {
+        "path": "/notes/DataStructuresAndAlgorithms/other/xdoj.cpp",
+        "type": "Misc",
+        "size": 548
+      },
+      {
+        "path": "/notes/DataStructuresAndAlgorithms/other/xdoj.exe",
+        "type": "Misc",
+        "size": 46721
+      },
+      {
+        "path": "/notes/DataStructuresAndAlgorithms/other/xdoj2.cpp",
+        "type": "Misc",
+        "size": 1462
+      },
+      {
+        "path": "/notes/DataStructuresAndAlgorithms/other/xdoj2.exe",
+        "type": "Misc",
+        "size": 47234
+      },
+      {
+        "path": "/notes/DataStructuresAndAlgorithms/other/xdoj3.cpp",
+        "type": "Misc",
+        "size": 912
+      },
+      {
+        "path": "/notes/docker/docker部署实例.html",
+        "type": "HTML",
+        "size": 398372
+      },
+      {
+        "path": "/notes/docker/docker部署实例.html.gz",
+        "type": "Misc",
+        "size": 62024
+      },
+      {
+        "path": "/notes/docker/docker入门.html",
+        "type": "HTML",
+        "size": 403516
+      },
+      {
+        "path": "/notes/docker/docker入门.html.gz",
+        "type": "Misc",
+        "size": 63760
+      },
+      {
+        "path": "/notes/index.html",
+        "type": "HTML",
+        "size": 390177
+      },
+      {
+        "path": "/notes/index.html.gz",
+        "type": "Misc",
+        "size": 61133
+      },
+      {
+        "path": "/notes/lib/fonts/01dcbad1bac635f9c9cd.woff2",
+        "type": "Font",
+        "size": 387976
+      },
+      {
+        "path": "/notes/lib/fonts/05b618077343fbbd92b7.ttf",
+        "type": "Font",
+        "size": 155288
+      },
+      {
+        "path": "/notes/lib/fonts/454577c22304619db035.ttf",
+        "type": "Font",
+        "size": 161376
+      },
+      {
+        "path": "/notes/lib/fonts/4bb6ac751d1c5478ff3a.woff2",
+        "type": "Font",
+        "size": 7876
+      },
+      {
+        "path": "/notes/lib/fonts/52ac8f3034507f1d9e53.ttf",
+        "type": "Font",
+        "size": 191568
+      },
+      {
+        "path": "/notes/lib/fonts/70cc7ff27245e82ad414.ttf",
+        "type": "Font",
+        "size": 192740
+      },
+      {
+        "path": "/notes/lib/fonts/c504db5c06caaf7cdfba.woff2",
+        "type": "Font",
+        "size": 352240
+      },
+      {
+        "path": "/notes/lib/fonts/MathJax_AMS-Regular.woff",
+        "type": "Font",
+        "size": 40808
+      },
+      {
+        "path": "/notes/lib/fonts/MathJax_Calligraphic-Bold.woff",
+        "type": "Font",
+        "size": 9908
+      },
+      {
+        "path": "/notes/lib/fonts/MathJax_Calligraphic-Regular.woff",
+        "type": "Font",
+        "size": 9600
+      },
+      {
+        "path": "/notes/lib/fonts/MathJax_Fraktur-Bold.woff",
+        "type": "Font",
+        "size": 22340
+      },
+      {
+        "path": "/notes/lib/fonts/MathJax_Fraktur-Regular.woff",
+        "type": "Font",
+        "size": 21480
+      },
+      {
+        "path": "/notes/lib/fonts/MathJax_Main-Bold.woff",
+        "type": "Font",
+        "size": 34464
+      },
+      {
+        "path": "/notes/lib/fonts/MathJax_Main-Italic.woff",
+        "type": "Font",
+        "size": 20832
+      },
+      {
+        "path": "/notes/lib/fonts/MathJax_Main-Regular.woff",
+        "type": "Font",
+        "size": 34160
+      },
+      {
+        "path": "/notes/lib/fonts/MathJax_Math-BoldItalic.woff",
+        "type": "Font",
+        "size": 19776
+      },
+      {
+        "path": "/notes/lib/fonts/MathJax_Math-Italic.woff",
+        "type": "Font",
+        "size": 19360
+      },
+      {
+        "path": "/notes/lib/fonts/MathJax_SansSerif-Bold.woff",
+        "type": "Font",
+        "size": 15944
+      },
+      {
+        "path": "/notes/lib/fonts/MathJax_SansSerif-Italic.woff",
+        "type": "Font",
+        "size": 14628
+      },
+      {
+        "path": "/notes/lib/fonts/MathJax_SansSerif-Regular.woff",
+        "type": "Font",
+        "size": 12660
+      },
+      {
+        "path": "/notes/lib/fonts/MathJax_Script-Regular.woff",
+        "type": "Font",
+        "size": 11852
+      },
+      {
+        "path": "/notes/lib/fonts/MathJax_Size1-Regular.woff",
+        "type": "Font",
+        "size": 5792
+      },
+      {
+        "path": "/notes/lib/fonts/MathJax_Size2-Regular.woff",
+        "type": "Font",
+        "size": 5464
+      },
+      {
+        "path": "/notes/lib/fonts/MathJax_Size3-Regular.woff",
+        "type": "Font",
+        "size": 3244
+      },
+      {
+        "path": "/notes/lib/fonts/MathJax_Size4-Regular.woff",
+        "type": "Font",
+        "size": 5148
+      },
+      {
+        "path": "/notes/lib/fonts/MathJax_Typewriter-Regular.woff",
+        "type": "Font",
+        "size": 17604
+      },
+      {
+        "path": "/notes/lib/fonts/MathJax_Vector-Bold.woff",
+        "type": "Font",
+        "size": 1116
+      },
+      {
+        "path": "/notes/lib/fonts/MathJax_Vector-Regular.woff",
+        "type": "Font",
+        "size": 1136
+      },
+      {
+        "path": "/notes/lib/fonts/MathJax_Zero.woff",
+        "type": "Font",
+        "size": 1368
+      },
+      {
+        "path": "/notes/lib/media/6155340132a851f6089e.svg",
+        "type": "Image",
+        "size": 315
+      },
+      {
+        "path": "/notes/lib/metadata.json",
+        "type": "Misc",
+        "size": 77704
+      },
+      {
+        "path": "/notes/lib/metadata.json.gz",
+        "type": "Misc",
+        "size": 7763
+      },
+      {
+        "path": "/notes/lib/rss.xml",
+        "type": "Misc",
+        "size": 4689666
+      },
+      {
+        "path": "/notes/markdwon及文档编写/文档编写基础知识.html",
+        "type": "HTML",
+        "size": 384768
+      },
+      {
+        "path": "/notes/markdwon及文档编写/文档编写基础知识.html.gz",
+        "type": "Misc",
+        "size": 60117
+      },
+      {
+        "path": "/notes/markdwon及文档编写/Latex自查表.html",
+        "type": "HTML",
+        "size": 385576
+      },
+      {
+        "path": "/notes/markdwon及文档编写/Latex自查表.html.gz",
+        "type": "Misc",
+        "size": 60456
+      },
+      {
+        "path": "/notes/markdwon及文档编写/markdown学习.html",
+        "type": "HTML",
+        "size": 419751
+      },
+      {
+        "path": "/notes/markdwon及文档编写/markdown学习.html.gz",
+        "type": "Misc",
+        "size": 64631
+      },
+      {
+        "path": "/notes/obsidian配置文件/obsidian插件/笔记记录方式.html",
+        "type": "HTML",
+        "size": 676618
+      },
+      {
+        "path": "/notes/obsidian配置文件/obsidian插件/笔记记录方式.html.gz",
+        "type": "Misc",
+        "size": 276611
+      },
+      {
+        "path": "/notes/obsidian配置文件/obsidian插件/插件目录.html",
+        "type": "HTML",
+        "size": 385432
+      },
+      {
+        "path": "/notes/obsidian配置文件/obsidian插件/插件目录.html.gz",
+        "type": "Misc",
+        "size": 60225
+      },
+      {
+        "path": "/notes/obsidian配置文件/obsidian插件/自定义快捷键.html",
+        "type": "HTML",
+        "size": 394141
+      },
+      {
+        "path": "/notes/obsidian配置文件/obsidian插件/自定义快捷键.html.gz",
+        "type": "Misc",
+        "size": 61328
+      },
+      {
+        "path": "/notes/obsidian配置文件/obsidian插件/Admontion.html",
+        "type": "HTML",
+        "size": 441375
+      },
+      {
+        "path": "/notes/obsidian配置文件/obsidian插件/Admontion.html.gz",
+        "type": "Misc",
+        "size": 66925
+      },
+      {
+        "path": "/notes/obsidian配置文件/obsidian插件/obsidianchart.html",
+        "type": "HTML",
+        "size": 1845218
+      },
+      {
+        "path": "/notes/obsidian配置文件/obsidian插件/obsidianchart.html.gz",
+        "type": "Misc",
+        "size": 1000406
+      },
+      {
+        "path": "/notes/obsidian配置文件/obsidian模板文件/成功代码块模板.html",
+        "type": "HTML",
+        "size": 385809
+      },
+      {
+        "path": "/notes/obsidian配置文件/obsidian模板文件/成功代码块模板.html.gz",
+        "type": "Misc",
+        "size": 60485
+      },
+      {
+        "path": "/notes/obsidian配置文件/obsidian模板文件/错误代码块模板.html",
+        "type": "HTML",
+        "size": 385639
+      },
+      {
+        "path": "/notes/obsidian配置文件/obsidian模板文件/错误代码块模板.html.gz",
+        "type": "Misc",
+        "size": 60467
+      },
+      {
+        "path": "/notes/obsidian配置文件/obsidian模板文件/甘特图.html",
+        "type": "HTML",
+        "size": 399579
+      },
+      {
+        "path": "/notes/obsidian配置文件/obsidian模板文件/甘特图.html.gz",
+        "type": "Misc",
+        "size": 62869
+      },
+      {
+        "path": "/notes/obsidian配置文件/obsidian模板文件/警告代码块模板.html",
+        "type": "HTML",
+        "size": 385918
+      },
+      {
+        "path": "/notes/obsidian配置文件/obsidian模板文件/警告代码块模板.html.gz",
+        "type": "Misc",
+        "size": 60623
+      },
+      {
+        "path": "/notes/obsidian配置文件/obsidian模板文件/举例代码块模板.html",
+        "type": "HTML",
+        "size": 386681
+      },
+      {
+        "path": "/notes/obsidian配置文件/obsidian模板文件/举例代码块模板.html.gz",
+        "type": "Misc",
+        "size": 60942
+      },
+      {
+        "path": "/notes/obsidian配置文件/obsidian模板文件/模板目录.html",
+        "type": "HTML",
+        "size": 386648
+      },
+      {
+        "path": "/notes/obsidian配置文件/obsidian模板文件/模板目录.html.gz",
+        "type": "Misc",
+        "size": 60339
+      },
+      {
+        "path": "/notes/obsidian配置文件/obsidian模板文件/文案代码模板.html",
+        "type": "HTML",
+        "size": 385780
+      },
+      {
+        "path": "/notes/obsidian配置文件/obsidian模板文件/文案代码模板.html.gz",
+        "type": "Misc",
+        "size": 60440
+      },
+      {
+        "path": "/notes/obsidian配置文件/obsidian模板文件/问题代码块模板.html",
+        "type": "HTML",
+        "size": 386087
+      },
+      {
+        "path": "/notes/obsidian配置文件/obsidian模板文件/问题代码块模板.html.gz",
+        "type": "Misc",
+        "size": 60722
+      },
+      {
+        "path": "/notes/obsidian配置文件/obsidian模板文件/重要代码块模板.html",
+        "type": "HTML",
+        "size": 385717
+      },
+      {
+        "path": "/notes/obsidian配置文件/obsidian模板文件/重要代码块模板.html.gz",
+        "type": "Misc",
+        "size": 60504
+      },
+      {
+        "path": "/notes/obsidian配置文件/obsidian模板文件/总结代码块模板.html",
+        "type": "HTML",
+        "size": 385876
+      },
+      {
+        "path": "/notes/obsidian配置文件/obsidian模板文件/总结代码块模板.html.gz",
+        "type": "Misc",
+        "size": 60544
+      },
+      {
+        "path": "/notes/obsidian配置文件/obsidian模板文件/bug代码块模板.html",
+        "type": "HTML",
+        "size": 386255
+      },
+      {
+        "path": "/notes/obsidian配置文件/obsidian模板文件/bug代码块模板.html.gz",
+        "type": "Misc",
+        "size": 60733
+      },
+      {
+        "path": "/notes/obsidian配置文件/obsidian资源文件/Pasted image 20230204162638.png",
+        "type": "Image",
+        "size": 4482
+      },
+      {
+        "path": "/notes/obsidian配置文件/obsidian资源文件/Pasted image 20230204162642.png",
+        "type": "Image",
+        "size": 4482
+      },
+      {
+        "path": "/notes/obsidian配置文件/obsidian资源文件/Pasted image 20230204204507.png",
+        "type": "Image",
+        "size": 30552
+      },
+      {
+        "path": "/notes/obsidian配置文件/obsidian资源文件/Pasted image 20230204204552.png",
+        "type": "Image",
+        "size": 31772
+      },
+      {
+        "path": "/notes/obsidian配置文件/obsidian资源文件/Pasted image 20230204204855.png",
+        "type": "Image",
+        "size": 50790
+      },
+      {
+        "path": "/notes/obsidian配置文件/obsidian资源文件/Pasted image 20230204205125.png",
+        "type": "Image",
+        "size": 18942
+      },
+      {
+        "path": "/notes/obsidian配置文件/obsidian资源文件/Pasted image 20230204205542.png",
+        "type": "Image",
+        "size": 26446
+      },
+      {
+        "path": "/notes/obsidian配置文件/obsidian资源文件/Pasted image 20230204212604.png",
+        "type": "Image",
+        "size": 14841
+      },
+      {
+        "path": "/notes/obsidian配置文件/obsidian资源文件/Pasted image 20230204212753.png",
+        "type": "Image",
+        "size": 42377
+      },
+      {
+        "path": "/notes/obsidian配置文件/obsidian资源文件/Pasted image 20230210213626.png",
+        "type": "Image",
+        "size": 37187
+      },
+      {
+        "path": "/notes/obsidian配置文件/obsidian资源文件/Pasted image 20230221214457.png",
+        "type": "Image",
+        "size": 190316
+      },
+      {
+        "path": "/notes/obsidian配置文件/obsidian资源文件/Pasted image 20230311171930.png",
+        "type": "Image",
+        "size": 41679
+      },
+      {
+        "path": "/notes/obsidian配置文件/obsidian资源文件/Pasted image 20230315220031.png",
+        "type": "Image",
+        "size": 468510
+      },
+      {
+        "path": "/notes/obsidian配置文件/obsidian资源文件/Pasted image 20230315220118.png",
+        "type": "Image",
+        "size": 540204
+      },
+      {
+        "path": "/notes/obsidian配置文件/obsidian资源文件/Pasted image 20230315220147.png",
+        "type": "Image",
+        "size": 693284
+      },
+      {
+        "path": "/notes/obsidian配置文件/obsidian资源文件/Pasted image 20230315220305.png",
+        "type": "Image",
+        "size": 546945
+      },
+      {
+        "path": "/notes/obsidian配置文件/obsidian资源文件/Pasted image 20230410205915.png",
+        "type": "Image",
+        "size": 68398
+      },
+      {
+        "path": "/notes/obsidian配置文件/obsidian资源文件/Pasted image 20230414172428.png",
+        "type": "Image",
+        "size": 50879
+      },
+      {
+        "path": "/notes/obsidian配置文件/obsidian资源文件/Pasted image 20230824230909.png",
+        "type": "Image",
+        "size": 18105
+      },
+      {
+        "path": "/notes/obsidian配置文件/obsidian资源文件/Pasted image 20230824231448.png",
+        "type": "Image",
+        "size": 12173
+      },
+      {
+        "path": "/notes/obsidian配置文件/obsidian资源文件/Pasted image 20230824231515.png",
+        "type": "Image",
+        "size": 16090
+      },
+      {
+        "path": "/notes/obsidian配置文件/obsidian资源文件/Pasted image 20230824231940.png",
+        "type": "Image",
+        "size": 14424
+      },
+      {
+        "path": "/notes/obsidian配置文件/obsidian资源文件/Pasted image 20230824232007.png",
+        "type": "Image",
+        "size": 26563
+      },
+      {
+        "path": "/notes/obsidian配置文件/obsidian资源文件/Pasted image 20230824232142.png",
+        "type": "Image",
+        "size": 18257
+      },
+      {
+        "path": "/notes/obsidian配置文件/obsidian资源文件/Pasted image 20230824232144.png",
+        "type": "Image",
+        "size": 18257
+      },
+      {
+        "path": "/ssr-manifest.json",
+        "type": "Misc",
+        "size": 6963
+      },
+      {
+        "path": "/ssr-manifest.json.gz",
+        "type": "Misc",
+        "size": 881
+      }
+    ]
+  },
+  {
+    "type": "cronJobs",
+    "artefacts": []
   }
-}
+]
