@@ -1,6 +1,7 @@
 const GITHUB_USER = "lildengzi";
 const PROFILE_REPO = "lildengzi";
 const API_BASE = "https://api.github.com";
+const PROFILE_README_URL = `https://raw.githubusercontent.com/${GITHUB_USER}/${PROFILE_REPO}/main/README.md`;
 
 const state = {
   repos: [],
@@ -58,14 +59,26 @@ async function loadProfile() {
 
 async function loadReadme() {
   try {
-    const readme = await fetchJson(`${API_BASE}/repos/${GITHUB_USER}/${PROFILE_REPO}/readme`);
-    const markdown = decodeBase64(readme.content);
+    const markdown = await fetchProfileReadme();
     renderReadmeSummary(markdown);
     renderTechStack(markdown);
   } catch (error) {
     $("#readme-summary").innerHTML =
       "<p>还没有读取到 GitHub Profile README。可以在 lildengzi 同名仓库维护个人简介，本站会自动同步摘要。</p>";
     renderTechStack("");
+  }
+}
+
+async function fetchProfileReadme() {
+  try {
+    const readme = await fetchJson(`${API_BASE}/repos/${GITHUB_USER}/${PROFILE_REPO}/readme`);
+    return decodeBase64(readme.content);
+  } catch (error) {
+    const response = await fetch(PROFILE_README_URL);
+    if (!response.ok) {
+      throw new Error(`${response.status} ${response.statusText}`);
+    }
+    return response.text();
   }
 }
 
@@ -79,17 +92,25 @@ function renderReadmeSummary(markdown) {
   const lines = markdown
     .split(/\r?\n/)
     .map((line) => line.replace(/^#+\s*/, "").trim())
-    .filter((line) => line && !line.startsWith("!") && !line.startsWith("<"));
-  const summary = lines.slice(0, 4);
+    .filter(isReadableReadmeLine);
+  const summary = lines.slice(0, 5);
   $("#readme-summary").innerHTML = summary.length
     ? summary.map((line) => `<p>${escapeHtml(stripMarkdown(line))}</p>`).join("")
     : "<p>README 已读取，但暂未识别到可展示的文字简介。</p>";
 }
 
+function isReadableReadmeLine(line) {
+  if (!line) return false;
+  if (line.startsWith("!") || line.startsWith("<") || line.startsWith("|")) return false;
+  if (/^-{3,}$/.test(line)) return false;
+  if (/^\[!\[/.test(line)) return false;
+  return true;
+}
+
 function renderTechStack(markdown) {
   const source = `${markdown}\n${state.repos.map((repo) => repo.language || "").join("\n")}`;
   const detected = techKeywords.filter((keyword) => source.toLowerCase().includes(keyword.toLowerCase()));
-  const unique = [...new Set([...detected, "Git", "GitHub Pages"])];
+  const unique = [...new Set([...detected, "Git"])];
   $("#tech-stack").innerHTML = unique.map((item) => `<span class="tag">${escapeHtml(item)}</span>`).join("");
 }
 
@@ -140,7 +161,14 @@ async function loadLearning() {
   const learning = await fetch("./data/learning.json").then((response) => response.json());
   setText("#learning-headline", learning.headline);
   setText("#learning-description", learning.description);
-  $("#learning-list").innerHTML = learning.records
+  renderLeetcodeHeatmap(learning.leetcodeActivity || []);
+  const learningList = $("#learning-list");
+  if (!learning.records?.length) {
+    learningList.hidden = true;
+    return;
+  }
+  learningList.hidden = false;
+  learningList.innerHTML = learning.records
     .map(
       (record) => `
         <article class="timeline-item">
@@ -153,6 +181,50 @@ async function loadLearning() {
       `,
     )
     .join("");
+}
+
+function renderLeetcodeHeatmap(activity) {
+  const heatmap = $("#leetcode-heatmap");
+  const counts = new Map(activity.map((item) => [item.date, Number(item.count) || 0]));
+  const days = buildRecentDays(182);
+  const maxCount = Math.max(1, ...activity.map((item) => Number(item.count) || 0));
+  heatmap.innerHTML = days
+    .map((date) => {
+      const key = toDateKey(date);
+      const count = counts.get(key) || 0;
+      const level = getHeatLevel(count, maxCount);
+      return `<span class="heat-cell" data-level="${level}" title="${key}: ${count} 题" aria-label="${key} 刷题 ${count} 题"></span>`;
+    })
+    .join("");
+}
+
+function buildRecentDays(totalDays) {
+  const today = new Date();
+  today.setHours(0, 0, 0, 0);
+  const start = new Date(today);
+  start.setDate(today.getDate() - totalDays + 1);
+  const days = [];
+  for (let i = 0; i < totalDays; i += 1) {
+    const date = new Date(start);
+    date.setDate(start.getDate() + i);
+    days.push(date);
+  }
+  return days;
+}
+
+function getHeatLevel(count, maxCount) {
+  if (count <= 0) return 0;
+  if (count === 1) return 1;
+  if (count <= Math.ceil(maxCount * 0.35)) return 2;
+  if (count <= Math.ceil(maxCount * 0.7)) return 3;
+  return 4;
+}
+
+function toDateKey(date) {
+  const year = date.getFullYear();
+  const month = String(date.getMonth() + 1).padStart(2, "0");
+  const day = String(date.getDate()).padStart(2, "0");
+  return `${year}-${month}-${day}`;
 }
 
 function setupSearch() {

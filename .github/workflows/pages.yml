@@ -5,6 +5,8 @@ on:
     branches: [main]
   pull_request:
     branches: [main]
+  schedule:
+    - cron: "0 20 * * 0"
   workflow_dispatch:
 
 permissions:
@@ -30,7 +32,7 @@ jobs:
           python -m json.tool data/learning.json >/dev/null
 
   deploy:
-    if: github.event_name == 'push'
+    if: github.event_name == 'push' || github.event_name == 'schedule' || github.event_name == 'workflow_dispatch'
     needs: validate
     runs-on: ubuntu-latest
     environment:
