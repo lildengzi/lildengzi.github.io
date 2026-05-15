@@ -1,0 +1,9 @@
+{
+  "_comment": "后续作品简介 agent 可以按仓库名写入 summary/tags/status/featured 字段，页面会优先展示这里的简介。",
+  "lildengzi.github.io": {
+    "summary": "个人网站与公开学习记录入口，运行在 GitHub Pages。",
+    "tags": ["GitHub Pages", "Portfolio"],
+    "status": "active",
+    "featured": true
+  }
+}
